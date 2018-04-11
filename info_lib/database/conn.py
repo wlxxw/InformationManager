@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-from hyhive_lib import base
+from InformationManager.global import base
 from sqlalchemy.exc import OperationalError
 
 BaseModel = declarative_base()
